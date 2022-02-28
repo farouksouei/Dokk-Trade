@@ -10,4 +10,14 @@ class TemplateController extends Controller
     {
         return view('frontEnd.home');
     }
+
+    public function ContactUs()
+    {
+        return view('frontEnd.Contact');
+    }
+
+    public function About()
+    {
+        return view('frontEnd.about');
+    }
 }
