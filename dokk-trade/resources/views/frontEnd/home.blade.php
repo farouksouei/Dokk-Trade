@@ -1,6 +1,6 @@
 @extends('frontEnd.master')
 @extends('frontEnd.Contact')
-@extends('frontEnd.Contact')
+@extends('frontEnd.About')
 
 @section('navbar')
 <header class="site-navbar py-3" role="banner">
