@@ -11,12 +11,12 @@ class TemplateController extends Controller
         return view('frontEnd.home');
     }
 
-    public function ContactUs()
+    public function contactUs()
     {
-        return view('frontEnd.Contact');
+        return view('frontEnd.contactUs');
     }
 
-    public function About()
+    public function about()
     {
         return view('frontEnd.about');
     }
